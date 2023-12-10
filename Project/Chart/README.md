@@ -5,4 +5,4 @@ __<font size="4">组件只有:</font>__
 + +1位数据按钮，
 + 折线图框
 
- ![如图](https://github.com/glasswarm/QT_Projrct/blob/master/Project/Chart/photo/1.png#pic_center))
+ ![如图](https://github.com/glasswarm/QT_Projrct/blob/master/Project/Chart/photo/1.png#pic_center)

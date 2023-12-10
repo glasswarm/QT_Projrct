@@ -7,4 +7,4 @@ __<font size="4">组件有:</font>__
 + 右边的显示每秒数据量的标签
 + QObject定时器
 
- ![如图](https://github.com/glasswarm/QT_Projrct/blob/master/Project/TCP_Client_Chart/photo/1.png#pic_center))
+ ![如图](https://github.com/glasswarm/QT_Projrct/blob/master/Project/TCP_Client_Chart/photo/1.png#pic_center)
