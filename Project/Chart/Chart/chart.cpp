@@ -4,7 +4,7 @@
 //------------------------------------------------------------------
 //数据定义
 #define Show_Count 5 //x轴要循环的次数的坐标
-char Label_y[Show_Count+1];
+char Label_y[Show_Count+2];
 int my_x=0;
 
 Chart::Chart(QWidget *parent)
@@ -60,8 +60,9 @@ void Chart::Button()
               Label_y[Count] = Label_y[Count+1]; //为了使旧xy对应
               Count++;
         }
-        Label_y[Show_Count] = 5;//模拟来数据时候的处理
-        series -> replace(Show_Count, Show_Count,Label_y[Show_Count]);//增加新数据
+        Label_y[Show_Count+1] = 5;//模拟来数据时候的处理
+        series -> replace(Show_Count,Label_y[Show_Count], Show_Count,Label_y[Show_Count+1]);//增加新数据
+        Label_y[Show_Count] = Label_y[Show_Count+1]; //为了使旧xy对应
     }
     else//当表格内没有数据时，用折线填补表格
     {
