@@ -1,0 +1,55 @@
+QWidget#select{
+        background-color: qlineargradient(
+            spread:pad, x1:0, y1:0, x2:1, y2:1,
+            stop:0 #3b68be, stop:1 #1a3460
+        );
+}
+
+QPushButton#wifi_btn,
+QPushButton#serial_btn,
+QPushButton#pushButton_3,
+QPushButton#pushButton_4,
+QPushButton#pushButton_5
+{
+    font-weight: bold;
+    color:white;
+    margin:-1px;
+    border-style: none;
+
+}
+
+QPushButton#wifi_btn:pressed,
+QPushButton#serial_btn:pressed,
+QPushButton#pushButton_3:pressed,
+QPushButton#pushButton_4:pressed,
+QPushButton#pushButton_5:pressed
+{
+    font-weight: bold;
+    color:white;
+    margin:-1px;
+    border-style: none;
+}
+/*
+QPushButton#wifi_btn:hover,
+QPushButton#serial_btn:hover,
+QPushButton#pushButton_3:hover,
+QPushButton#pushButton_4:hover,
+QPushButton#pushButton_5:hover
+{
+    font-weight: bold;
+    background-color:#d9d8d9;
+    border:none;
+}*/
+
+
+
+QPushButton#wifi_btn:checked,
+QPushButton#serial_btn:checked,
+QPushButton#pushButton_3:checked,
+QPushButton#pushButton_4:checked,
+QPushButton#pushButton_5:checked
+{
+    font-weight: bold;
+    background-color:#d9d8d9;
+    border:none;
+}
