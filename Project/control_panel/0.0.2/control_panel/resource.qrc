@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>Resources/Icon/app.png</file>
+        <file>Resources/Icon/close.png</file>
+        <file>Resources/Icon/maxsize.png</file>
+        <file>Resources/Icon/minium.png</file>
+        <file>Resources/Icon/normal.png</file>
+        <file>Resources/Icon/wifi.png</file>
+        <file>Resources/Icon/under.png</file>
+    </qresource>
+    <qresource prefix="/Css">
+        <file>Resources/Css/frameless.qss</file>
+        <file>Resources/Css/select.qss</file>
+    </qresource>
+</RCC>
