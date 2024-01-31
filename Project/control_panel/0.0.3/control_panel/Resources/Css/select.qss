@@ -1,0 +1,114 @@
+/*
+this->setStyleSheet(“QWidget{border-top-left-radius:15px;border-top-right-radius:5px;}”));
+使用的主要是使用border-radius 属性，关于这个属性，可选的样式有
+border-top-left-radius 设置左上角圆角;
+border-top-right-radius 设置右上角圆角;
+border-bottom-left-radius 设置左下角圆角;
+border-bottom-right-radius 设置右下角圆角;
+border-radius 设置四个角圆角;
+*/
+
+QWidget#select{
+        background-color: qlineargradient(
+            spread:pad, x1:0, y1:0, x2:1, y2:1,
+            stop:0 #574266, stop:1 #1f2a6b
+        );
+
+
+        border-top-left-radius:12px;
+        border-bottom-left-radius:12px;
+}
+
+QPushButton#wifi_btn,
+QPushButton#serial_btn,
+QPushButton#pushButton_3,
+QPushButton#pushButton_4,
+QPushButton#pushButton_5
+{
+    font-weight: bold;
+    color:white;
+    margin:-1px;
+    border-style: none;
+
+}
+
+
+
+QPushButton#wifi_btn:pressed,
+QPushButton#serial_btn:pressed,
+QPushButton#pushButton_3:pressed,
+QPushButton#pushButton_4:pressed,
+QPushButton#pushButton_5:pressed
+{
+    font-weight: bold;
+    color:white;
+    margin:-1px;
+    border-style: none;
+}
+
+/*
+QPushButton#wifi_btn:hover,
+QPushButton#serial_btn:hover,
+QPushButton#pushButton_3:hover,
+QPushButton#pushButton_4:hover,
+QPushButton#pushButton_5:hover
+{
+    font-weight: bold;
+    background-color:#d9d8d9;
+    border:none;
+}*/
+
+
+QPushButton#wifi_btn:checked,
+QPushButton#serial_btn:checked,
+QPushButton#pushButton_3:checked,
+QPushButton#pushButton_4:checked,
+QPushButton#pushButton_5:checked
+{
+    font-weight: bold;
+    background-color: qlineargradient(
+        spread:pad, x1:0, y1:0, x2:1, y2:0,
+        stop:0 #ffffff, stop:0.03 #ffffff,
+        stop:0.031 #471275, stop:1 #0a3363
+    );
+}
+
+
+
+
+
+
+
+QPushButton#contents
+{
+    font-weight: bold;
+    color:white;
+    margin:-1px;
+    border-style: none;
+}
+
+QPushButton#contents:hover
+{
+    font-weight: bold;
+    background-color:#d9d8d9;
+    border:none;
+}
+
+
+
+
+
+
+QPushButton#add_components
+{
+    font-weight: bold;
+    background-color:#ffffff;
+    color: rgba(93,71,139,255);
+    border:none;
+    border-radius: 6px;
+}
+
+QPushButton#add_components:hover
+{
+}
+

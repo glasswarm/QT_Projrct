@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/app/images">
+        <file>Resources/Icon/app.png</file>
+        <file>Resources/Icon/under.png</file>
+    </qresource>
+    <qresource prefix="/Css">
+        <file>Resources/Css/frameless.qss</file>
+        <file>Resources/Css/select.qss</file>
+        <file>Resources/Css/pages.qss</file>
+    </qresource>
+    <qresource prefix="/title/images">
+        <file>Resources/Icon/title/close.png</file>
+        <file>Resources/Icon/title/maxsize.png</file>
+        <file>Resources/Icon/title/minium.png</file>
+        <file>Resources/Icon/title/normal.png</file>
+        <file>Resources/Icon/title/search_title_Icon.png</file>
+        <file>Resources/Icon/title/top.png</file>
+        <file>Resources/Icon/title/sun.png</file>
+        <file>Resources/Icon/title/more_setting.png</file>
+    </qresource>
+    <qresource prefix="/select/images">
+        <file>Resources/Icon/select/wifi.png</file>
+        <file>Resources/Icon/select/add.png</file>
+        <file>Resources/Icon/select/serial.png</file>
+        <file>Resources/Icon/select/search_Icon.png</file>
+        <file>Resources/Icon/select/serial_selected.png</file>
+        <file>Resources/Icon/select/Wifi_selected.png</file>
+        <file>Resources/Icon/select/setting.png</file>
+        <file>Resources/Icon/select/setting_selected.png</file>
+        <file>Resources/Icon/select/video.png</file>
+        <file>Resources/Icon/select/video_selected.png</file>
+        <file>Resources/Icon/select/about.png</file>
+        <file>Resources/Icon/select/about_selected.png</file>
+    </qresource>
+</RCC>

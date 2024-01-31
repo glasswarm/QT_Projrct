@@ -1,0 +1,85 @@
+QPushButton#winBtn
+{
+
+    background:rgba(0,0,0,0);
+    border:rgba(0,0,0,0);
+}
+/*鼠标悬浮*/
+QPushButton#winBtn:hover
+{
+    /*background-color:#A8A8A8;*/
+    border:none;
+}
+
+/*按钮按下*/
+QPushButton#winBtn:pressed
+{
+    /*background-color:#f0f0f0;*/
+    border:none;
+}
+
+QWidget#titleLabel
+{
+    background-color:#ffffff;
+    border-top-right-radius:2px;
+}
+
+
+QPushButton#sun_btn,
+QPushButton#top_btn,
+QPushButton#more_setting_btn
+{
+    background:transparent;
+    border:none;
+}
+/*鼠标悬浮*/
+QPushButton#sun_btn:hover,
+QPushButton#top_btn:hover,
+QPushButton#more_setting_btn:hover
+{
+    border:none;
+}
+
+/*按钮按下*/
+QPushButton#sun_btn:pressed,
+QPushButton#top_btn:pressed,
+QPushButton#more_setting_btn:pressed
+{
+    border:none;
+}
+
+/*
+
+///////////////搜索框/////////////////
+
+*/
+QLineEdit#search_title
+{
+    /*border: 1px solid gray;*//*设置边框的粗细，以及颜色*/
+    /*selection-background-color: darkgray;*/
+
+    background-color:#f4f5f8;
+    border-radius: 16px;/*设置圆角的大小*/
+    font-size:24px;
+    /*font-family:"Microsoft Yahei";*/
+    selection-background-color: darkgrey;
+}
+
+
+QPushButton#search_title_Icon
+{
+    margin:-1px;
+    border-style: none;
+    background-color:transparent;
+
+}
+
+#title_line,
+#title_top_line,
+#title_middle_line,
+#title_bottom_line
+{
+    color:rgba(150,150,150,42);
+}
+
+

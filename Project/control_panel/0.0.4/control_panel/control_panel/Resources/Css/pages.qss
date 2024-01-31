@@ -1,0 +1,29 @@
+/*
+    css的命名格式不能有_下划线
+*/
+
+QWidget#pages_widget{
+    background-color:#ffffff;
+    border-bottom-right-radius:12px;
+}
+
+QLabel#label{
+
+}
+
+/*
+
+////////////////// line /////////////////////
+
+*/
+#wifi_line
+{
+    color:rgba(150,150,150,42);
+}
+
+
+QFrame#frame,
+QFrame#wifi_task
+{
+    background-color:#dfdfdf;
+}
